@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="web design">
+    <meta name="keywords" content="web design, kano state, nigeria news, daily update">
+
+    <meta name="author" content="Acube Technology">
+    <title>GENERATING A VIRTUAL BIO WEB PAGE</title>
+    <style>
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font: 15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color:#f4f4f4;
+  background-image: url('https://cdn.pixabay.com/photo/2014/04/05/11/39/rain-316580__480.jpg');
+
+}
+.btn {
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+}
+
+/* all containers */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* header and navigation */
+header{
+    background: #1a2024;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    width: 100%
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #container{
+  float: left;
+}
+header #container h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .high{
+    color: #e8491d;
+    font-weight: bolder;
+} 
+header a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+/* show case of website */
+#showcase{
+    min-height: 400px;
+    max-width: 100%;
+    color: #fff;
+}
+#showcase h1{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter{
+    background: #1a2024;
+    padding: 20px;
+    color: #fff;
+}
+#newsletter h5{
+    float: left;
+    font-size: 20px;
+}
+#newsletter form{
+    float: right;
+    margin-top: 30px;
+}
+#newsletter input[type="email"]{
+    outline: none;
+    height: 25px;
+    width: 250px;
+    padding: 4px;
+}
+#newsletter input[type="submit"]{
+    height: 38px;
+    padding:0 20px 0 20px;
+    background: #e8491d;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+#about{
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+footer{
+    background: #e8491d;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: #fff; 
+}
+footer a{
+    color: #000;
+    font-size: 20px;
+}
+footer a:hover{
+    color: #441bb5;
+}
+@media(max-width: 900px){
+ #boxes .box1, #boxes .box2, #boxes .box3{
+    float:none;
+    text-align:center;
+    width: 100%;
+  } 
+  img{
+      max-width: 100%;
+  height: auto;
+  }
+  #newsletter form{
+    float: none;
+    margin-top: 30px;
+}
+#newsletter input[type="email"]{
+    outline: none;
+    height: 25px;
+    width: 250px;
+    padding: 4px;
+}
+#newsletter input[type="submit"]{
+    height: 38px;
+    padding:0 20px 0 20px;
+    background: #e8491d;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+ul li{
+   display: inline-block; 
+   text-align:left ;
+}
+    
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div id="container">
+        <h2><span class="high">Mini </span>Project</h2>
+     </div>
+          <nav>
+            <ul>
+                <li><a class="page-scroll" href="#home">Home</a></li>
+                <li><a class="page-scroll" href="#about">About</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="register.php">Register</a></li>
+                <li><a class="page-scroll" href="#newsletter">notifications</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+  <section id="showcase">
+<div class="container">
+    <h1>Get a web page to create unique identity</h1>
+    <p>A simple , yet professional place to showcase who you are and what you do</p>
+    <a href="login.php"><button class=btn>Get your FREE webpage</button></a>
+</div>
+</section>
+<section id="about" class="" style="color:#ffffff;">
+		<!-- =============== container =============== -->
+        <div class="container">            
+                   <h2>About Us</h2>
+				   <p>Create a page to present who you are and what you do in ONE LINK</p>
+                                   <p>You can showcase all your interests using our website</p>
+                                   <p>Easy for your audience to learn about you , simple for you to setup.</p>
+                                   <p>web hosting is easy with US</p>
+        </div>   
+		<!-- =============== container end =============== -->		
+    </section>
+
+<section id="newsletter">
+<div class="container">
+    <h5>Subscribe To Our Newsletter</h5>
+    <form action="form.php">
+        <input type="email" placeholder="Enter your email address" name="" required="">
+        <input type="submit" name="" value="Subscribe">
+    </form>
+</div>
+</section>
+<footer>
+    
+    <address>
+    <br>
+    Design by Chathurya Adapa,Kalyani Pepakayala and team
+</address>
+</footer>
+</body>
+</html>
